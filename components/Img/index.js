@@ -8,7 +8,7 @@ const INIT_BLUR_RADIUS = 40;
 const Img = ({srcName, alt, sizes, lqip, trace, height, width, blurRadius, abortAnimThreshold = 150}) => {
     if(typeof srcName !== 'string') throw new Error("provide the name of the image in srcName");
 
-    let src, webp, srcset, placeholder, error, lqipColors, ascpectRatio, dims, meta, finalDims;
+    let src, webp, srcset, placeholder, lqipColors, meta;
     const img_props = {alt, height, width};
 
     const [loaded, setLoaded] = useState('');
