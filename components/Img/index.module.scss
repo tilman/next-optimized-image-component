@@ -1,0 +1,30 @@
+.Img{
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+
+    // padding-top + width is inserted with style dynamically
+}
+.Img img, .Img svg{
+    // float: left; //fixes the space between palceholder and final image, so we can use margin: -ImgHeigt later
+    position: absolute;
+
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0; 
+
+    width: 100%;
+    height: 100%;
+}
+.Img img.finalImg{
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+.Img.loadWithAnim img.finalImg{
+    opacity: 1;
+}
+.Img.loadNoAnim img.finalImg{
+    opacity: 1;
+    transition: opacity 0s ease;
+}

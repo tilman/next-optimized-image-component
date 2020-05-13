@@ -1,0 +1,36 @@
+{
+  "name": "create-next-app-cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exif-loader": "^0.1.2",
+    "image-size": "^0.8.3",
+    "image-size-loader": "^0.7.0",
+    "next": "9.3.6",
+    "next-compose-plugins": "^2.2.0",
+    "next-optimized-images": "^2.6.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "image-trace-loader": "^1.0.2",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-optipng": "^7.1.0",
+    "imagemin-svgo": "^7.1.0",
+    "lqip-loader": "^2.2.0",
+    "responsive-loader": "^1.2.0",
+    "sass": "^1.26.5",
+    "sharp": "^0.25.2",
+    "svg-sprite-loader": "^4.3.0",
+    "webp-loader": "^0.6.0"
+  }
+}
