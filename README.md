@@ -1,5 +1,7 @@
-This React Image Loader Component is Designed for use with Next.js. It uses `next-optimized-images` to optimize and transform the images.
+#### This React Image Loader Component is Designed for use with Next.js. It uses `next-optimized-images` to optimize and transform the images:
+
 <img src="https://github.com/tilman/next-optimized-image-component/raw/master/demo.gif" width="250px">
+
 If you want to see it live: https://optimized-images-tilman1.triebwork.now.sh/
 
 
