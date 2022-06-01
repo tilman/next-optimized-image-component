@@ -29,7 +29,7 @@
     "lqip-loader": "^2.2.0",
     "responsive-loader": "^1.2.0",
     "sass": "^1.26.5",
-    "sharp": "^0.25.2",
+    "sharp": "^0.30.5",
     "svg-sprite-loader": "^4.3.0",
     "webp-loader": "^0.6.0"
   }
